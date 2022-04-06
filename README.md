@@ -28,8 +28,7 @@ through this android application.
 You can install this application to test on your android smartphone. To download the signed application go to your chrome browser and copy-paste the download link:
 
 ```bash
-  npm install my-project
-  cd my-project
+https://github.com/AbhishekPannu/NITCComplaintPortal/blob/master/app-debug.apk
 ```
 
 Download will be started automatically. After then install it on your android device. Open the application, create an account using valid NITC mail ID. That's it.
