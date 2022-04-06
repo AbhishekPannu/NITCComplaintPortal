@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">NITC COMPLAINT PORTAL</string>
+    <string name="select_your_block">Select your Block</string>
+    <string-array name="array_default">
+        <item>Choose between Hostel and College</item>
+    </string-array>
+    <string-array name="array_hostel">
+        <item>Select your Hostel</item>
+        <item>Hostel A</item>
+        <item>Hostel B</item>
+        <item>Hostel C</item>
+        <item>Hostel D</item>
+        <item>Hostel E</item>
+        <item>Hostel F</item>
+        <item>Hostel G</item>
+        <item>MHB</item>
+        <item>MHG</item>
+    </string-array>
+    <string-array name="array_college">
+        <item>Select your Block</item>
+        <item>ELHC</item>
+        <item>CSED</item>
+        <item>CCC</item>
+        <item>NLHC</item>
+        <item>TnP</item>
+    </string-array>
+    <string-array name="array_complaint">
+        <item>Select Complaint Category</item>
+        <item>Electricity</item>
+        <item>Plumbing</item>
+        <item>Internet</item>
+        <item>General</item>
+    </string-array>
+</resources>

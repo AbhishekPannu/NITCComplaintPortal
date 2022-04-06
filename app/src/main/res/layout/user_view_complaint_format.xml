@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:scrollbars="vertical"
+    app:cardBackgroundColor="#001C55"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="0dp"
+    app:cardMaxElevation="0dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/border1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/building"
+                    android:layout_width="209dp"
+                    android:layout_height="49dp"
+                    android:fontFamily="@font/baloo"
+                    android:paddingTop="10dp"
+                    android:text="Hostel/Block"
+                    android:textAlignment="center"
+                    android:textColor="#F5FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/complaintCategory"
+                    android:layout_width="209dp"
+                    android:layout_height="46dp"
+                    android:fontFamily="@font/baloo"
+                    android:paddingTop="8dp"
+                    android:text="Category"
+                    android:textAlignment="center"
+                    android:textColor="#F1EEEE"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/complaintDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:fontFamily="@font/baloo"
+                    android:paddingTop="20dp"
+                    android:text="Description"
+                    android:textAlignment="center"
+                    android:textColor="#F6EEEE"
+                    android:textSize="20sp" />
+
+                <RatingBar
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="95dp"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:progressBackgroundTint="#FFFFFF"
+                    android:progressTint="#FFD700"
+                    android:scaleX=".7"
+                    android:scaleY=".7"
+                    android:stepSize="0.1"
+                    android:transformPivotX="0dp"
+                    android:transformPivotY="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/status"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:backgroundTint="#ffffff"
+                    android:clickable="false"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Rating"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>
